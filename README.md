@@ -16,7 +16,7 @@
     SELECT * FROM destinations
       WHERE average_temp > 60;
   ### Results:
-  ![screenshot for challenge 3](https://snipboard.io/1atOcU.jpg)
+  ![screenshot for challenge 3](https://snipboard.io/FOfCNd.jpg)
 ## CHALLENGE 4
   ### Query:
     SELECT name FROM destinations
@@ -28,13 +28,13 @@
     SELECT name FROM destinations
       WHERE cost_of_flight < 500 AND has_mountains = true;
   ### Results:
-  ![screenshot for challenge 5](https://github.com/gncarlos/database-checkpoint/blob/main/screenshots/res_05.PNG?raw=true)
+  ![screenshot for challenge 5](https://snipboard.io/hwZnmr.jpg)
 ## CHALLENGE 6
   ### Query:
     INSERT INTO destinations VALUES (6, 'The Bahamas', 78, true, false, 345);
   ### Results:
     INSERT 0 1
-  ![screenshot for challenge 6](https://github.com/gncarlos/database-checkpoint/blob/main/screenshots/res_06.PNG?raw=true)
+  ![screenshot for challenge 6](https://snipboard.io/TsNn5I.jpg)
 ## CHALLENGE 7
   ### Query:
     UPDATE destinations SET cost_of_flight = '1000'

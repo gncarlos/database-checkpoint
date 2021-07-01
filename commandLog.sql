@@ -35,6 +35,14 @@ SELECT name FROM destinations
       WHERE has_beaches = true;
 
 SELECT name FROM destinations
+  WHERE average_temp > 60;
+
+SELECT name FROM destinations
   WHERE has_beaches = true AND has_mountains = true;
 
-  
+SELECT name FROM destinations
+  WHERE cost_of_flight < 500 AND has_mountains = true;
+
+INSERT INTO destinations ( name, average_temp, has_beaches, has_mountains, cost_of_flight) VALUES ('The Bahamas', 78, true, false, 345);
+SELECT * FROM destinations;
+

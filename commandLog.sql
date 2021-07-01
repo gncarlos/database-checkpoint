@@ -91,6 +91,8 @@ INSERT INTO airlines_destinations ( airlines_id, destinations_id )
 INSERT INTO airlines_destinations ( airlines_id, destinations_id )
   SELECT airlines.id, destinations.id FROM airlines, destinations
     WHERE airlines.name ='Southwest' AND destinations.name ='Tristan da Cunha';
+SELECT id, name FROM destinations;
+SELECT * FROM airlines;
 SELECT * FROM airlines_destinations;
 
 SELECT airlines.name FROM airlines

@@ -102,7 +102,7 @@
   ### Results:
     CREATE TABLE
     INSERT 0 1
-  ![screenshot for challenge 10](https://snipboard.io/aNxfJE.jpg)
+  ![screenshot for challenge 10](https://snipboard.io/yMBwRj.jpg)
 ## CHALLENGE 11
   ### Query:
     SELECT airlines.name FROM airlines

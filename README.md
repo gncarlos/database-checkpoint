@@ -8,9 +8,9 @@
 ## CHALLENGE 2
   ### Query:
     SELECT name FROM destinations
-      WHERE has_beach = true;
+      WHERE has_beaches = true;
   ### Results:
-  ![screenshot for challenge 2](https://github.com/gncarlos/database-checkpoint/blob/main/screenshots/res_02.PNG?raw=true)
+  ![screenshot for challenge 2](https://snipboard.io/qfIxJB.jpg)
 ## CHALLENGE 3
   ### Query:
     SELECT * FROM destinations
@@ -20,7 +20,7 @@
 ## CHALLENGE 4
   ### Query:
     SELECT name FROM destinations
-      WHERE has_beach = true AND has_mountains = true;
+      WHERE has_beaches = true AND has_mountains = true;
   ### Results: ![screenshot for challenge 4](https://github.com/gncarlos/database-checkpoint/blob/main/screenshots/res_04.PNG?raw=true)
 ## CHALLENGE 5
   ### Query:

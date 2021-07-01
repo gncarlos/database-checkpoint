@@ -113,8 +113,13 @@
   ![screenshot for challenge 11](https://snipboard.io/PLtQey.jpg)
 ## CHALLENGE 12
   ### Query:
+    SELECT airlines.name FROM airlines
+      WHERE airlines.id IN (SELECT DISTINCT airlines_id FROM airlines_destinations
+        WHERE airlines_id NOT IN (SELECT airlines_id FROM airlines_destinations
+          WHERE destinations_id =(SELECT destinations.id FROM destinations
+            WHERE destinations.name = 'Scotland')));
   ### Results:
-  ![screenshot for challenge 12](https://github.com/gncarlos/database-checkpoint/blob/main/screenshots/res_12.PNG?raw=true)
+  ![screenshot for challenge 12](https://snipboard.io/EHQ6oM.jpg)
 ## CHALLENGE 13
   ### Query:
     SELECT * FROM destinations;

@@ -30,3 +30,11 @@ INSERT INTO destinations ( name, average_temp, has_beaches, has_mountains, cost_
 
 --COMMANDS TO COMPLETE CHALLENGES:
 SELECT name FROM destinations;
+
+SELECT name FROM destinations
+      WHERE has_beaches = true;
+
+SELECT name FROM destinations
+  WHERE has_beaches = true AND has_mountains = true;
+
+  

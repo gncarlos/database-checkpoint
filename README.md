@@ -16,12 +16,13 @@
     SELECT * FROM destinations
       WHERE average_temp > 60;
   ### Results:
-  ![screenshot for challenge 3](https://github.com/gncarlos/database-checkpoint/blob/main/screenshots/res_03.PNG?raw=true)
+  ![screenshot for challenge 3](https://snipboard.io/1atOcU.jpg)
 ## CHALLENGE 4
   ### Query:
     SELECT name FROM destinations
       WHERE has_beaches = true AND has_mountains = true;
-  ### Results: ![screenshot for challenge 4](https://github.com/gncarlos/database-checkpoint/blob/main/screenshots/res_04.PNG?raw=true)
+  ### Results:
+  ![screenshot for challenge 4](https://snipboard.io/QtoNl0.jpg)
 ## CHALLENGE 5
   ### Query:
     SELECT name FROM destinations
